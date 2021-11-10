@@ -1,0 +1,59 @@
+/* Phone Screen */
+@media (max-width: 767px) {
+    .special-heading{
+        font-size: 70px;
+    }
+    .special-heading + p{
+        margin-top: -20px;
+    }
+    .services .service-box .col .serv{
+        flex-direction: column;
+        text-align: center;
+    }
+    .services .service-box .col:nth-child(3){
+        display: none;
+    }
+    .about .info-text{
+        flex-direction: column;
+        text-align: center;
+    }
+    .about .info-text .image,.about .info-text .text{
+        width: 100%;
+    }
+    .contact .info-text{
+        text-align: center;
+    }
+    .contact .info-text p{
+        font-size: 20px;
+    }
+    .contact .info-text p:nth-child(2){
+        padding-left: 0;
+    }
+}
+@media (max-width: 768px) {
+    .services .service-box .col:nth-child(3){
+        display: none;
+    }
+    .about .info-text .image::after,
+    .about .info-text .image::before{
+        display: none;
+    }
+}
+/* Small Screen */
+@media (min-width: 768px) {
+    .container{
+        width: 750px;
+    }
+}
+/* Medium Screen */
+@media (min-width: 992px) {
+    .container{
+        width: 970px;
+    }
+}
+/* Larg Screen */
+@media (min-width: 1200px) {
+    .container{
+        width: 1170px;
+    }    
+}
